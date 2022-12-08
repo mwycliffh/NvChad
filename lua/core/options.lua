@@ -13,7 +13,9 @@ opt.showmode = false
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
 
--- WYCLIFF
+-- Wycliff Amendments
+opt.colorcolumn = "79"
+opt.guicursor = "v-c-sm:block,n-i-ci-ve:ver25,r-cr-o:hor20"
 
 -- Indenting
 opt.expandtab = true
