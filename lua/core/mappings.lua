@@ -8,6 +8,9 @@ local M = {}
 
 M.general = {
   i = {
+     -- Map jj to Escape key
+     ["jj"] = { "<ESC>", "fast escape" },
+
     -- go to  beginning and end
     ["<C-b>"] = { "<ESC>^i", "beginning of line" },
     ["<C-e>"] = { "<End>", "end of line" },

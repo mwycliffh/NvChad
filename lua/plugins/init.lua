@@ -116,7 +116,8 @@ local plugins = {
 
   -- load luasnips + cmp related in insert mode only
 
-  ["rafamadriz/friendly-snippets"] = {
+  -- ["rafamadriz/friendly-snippets"] = {
+  ["mwycliffh/friendly-snippets"] = {
     module = { "cmp", "cmp_nvim_lsp" },
     event = "InsertEnter",
   },

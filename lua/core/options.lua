@@ -16,13 +16,17 @@ opt.cursorline = true
 -- Wycliff Amendments
 opt.colorcolumn = "79"
 opt.guicursor = "v-c-sm:block,n-i-ci-ve:ver25,r-cr-o:hor20"
+-- opt.guicursor = "a:block-blinkwait175-blinkoff150-blinkon175"
+-- opt.guicursor = "v-c-sm:block-blinkwait175-blinkoff150-blinkon175,n-i-ci-ve:ver25,r-cr-o:hor20"
+
+
 
 -- Indenting
 opt.expandtab = true
-opt.shiftwidth = 2
+opt.shiftwidth = 4
 opt.smartindent = true
-opt.tabstop = 2
-opt.softtabstop = 2
+opt.tabstop = 4
+opt.softtabstop = 4
 
 opt.fillchars = { eob = " " }
 opt.ignorecase = true
