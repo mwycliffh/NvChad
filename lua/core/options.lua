@@ -13,6 +13,8 @@ opt.showmode = false
 opt.clipboard = "unnamedplus"
 opt.cursorline = true
 
+-- WYCLIFF
+
 -- Indenting
 opt.expandtab = true
 opt.shiftwidth = 2
